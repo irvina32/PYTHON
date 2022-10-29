@@ -1,10 +1,11 @@
-﻿/*// Напишите программу, которая принимает на вход 
+﻿// Напишите программу, которая принимает на вход 
 // трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 Console.WriteLine("Введите число");
 
 int number = int.Parse(Console.ReadLine());
-Console.WriteLine(number);
+
+//Console.WriteLine(number);
 
 
 int firstNumber = 0;
@@ -13,31 +14,46 @@ int secondNumder = 0;
 
 firstNumber = number / 10;
 
-Console.Write(firstNumber % 10);*/
-Console.WriteLine("Введите число ");
-int n = int.Parse(Console.ReadLine());
-int index = int.Parse(Console.ReadLine());
-int array = n;
+Console.Write(firstNumber % 10);
 
-//int index = n;
-//int n = array.Lenght;
-//int array = index; //int.Parse(Console.ReadLine());
-//int number = array;
-//int[] array = index; //int[] array = index; 
-//int number = array[n];
-//int n = Array.Length;
-int findindex = 2;
 
-int currend_index = 0;//int currend_index = 0;
-int currend_n = 0;
-while (currend_index < findindex)
-{
-    if (currend_index == findindex)
 
-    {
-          Console.WriteLine(currend_n);
-          //break;
-    }
-    currend_index++;  
-}
+// Задача 13: Напишите программу, которая выводит третью цифру
+// заданного числа или сообщает, что третьей цифры нет.
 
+// Console.WriteLine("Введите число: ");
+// int n = int.Parse(Console.ReadLine());
+// //Console.WriteLine(n);
+
+// if(n <= 99)
+// {   
+//     Console.WriteLine("третьей цифры нет");   
+// }
+
+//     if (n > 101 && n < 999){
+
+//     Console.WriteLine(n % 10);
+// }
+
+// if (n == 100 || n == 1000){
+
+//     Console.WriteLine(n % 10);
+// }
+
+
+
+//  Напишите программу, которая принимает на вход цифру,
+//  обозначающую день недели, и проверяет, является ли этот день выходным.
+
+//  Console.Write("Введи цифру дня недели: ");
+// int dayNumber = Convert.ToInt32(Console.ReadLine());
+
+
+// void CheckingTheDayOfTheWeek (int dayNumber) {
+//   if (dayNumber == 6 || dayNumber == 7) 
+//   Console.WriteLine("этот день выходной");
+  
+//   else Console.WriteLine("этот день не выходной");
+// }
+
+// CheckingTheDayOfTheWeek(dayNumber);

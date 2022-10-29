@@ -1,46 +1,60 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая принимает на вход 
+// трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-
-//int weekDay = int.Parse(Console.ReadLine());
-/*return DateTime.WeekDay;
+Console.WriteLine("Введите число");
 
 int number = int.Parse(Console.ReadLine());
-int number1 = понедельник;
-//int number1 = int.Parse(Console.ReadLine());
-int number2 = вторник;
-//int number2 = int.Parse(Console.ReadLine());
-int number3 = среда;
-//int number3 = int.Parse(Console.ReadLine());
-int number4 = четверг;
-//int number4 = int.Parse(Console.ReadLine());
-int number5 = пятница;
-//int number5 = int.Parse(Console.ReadLine());
-int number6 = суббота;
-//int number6 = int.Parse(Console.ReadLine());
-int number7 = воскресенье;
-//int number7 = int.Parse(Console.ReadLine());
-Console.Write("Введи цифру, обозначающую день недели: ");
 
-if (number == 6 || number == 7) {
-  Console.WriteLine("(этот день выходной) -> да");
-  }
-  else if (number < 1 || number > 7) {
-    Console.WriteLine("это вообще не день недели");
-  }
-  else Console.WriteLine("этот день не выходной");*/
+//Console.WriteLine(number);
 
 
-  Console.Write("Введи цифру дня недели: ");
-int dayNumber = Convert.ToInt32(Console.ReadLine());
+int firstNumber = 0;
+//int secondNumder = 0;
 
 
-void CheckingTheDayOfTheWeek (int dayNumber) {
-  if (dayNumber == 6 || dayNumber == 7) 
-  Console.WriteLine("этот день выходной");
+firstNumber = number / 10;
+
+Console.Write(firstNumber % 10);
+
+
+
+// Задача 13: Напишите программу, которая выводит третью цифру
+// заданного числа или сообщает, что третьей цифры нет.
+
+// Console.WriteLine("Введите число: ");
+// int n = int.Parse(Console.ReadLine());
+// //Console.WriteLine(n);
+
+// if(n <= 99)
+// {   
+//     Console.WriteLine("третьей цифры нет");   
+// }
+
+//     if (n > 101 && n < 999){
+
+//     Console.WriteLine(n % 10);
+// }
+
+// if (n == 100 || n == 1000){
+
+//     Console.WriteLine(n % 10);
+// }
+
+
+
+//  Напишите программу, которая принимает на вход цифру,
+//  обозначающую день недели, и проверяет, является ли этот день выходным.
+
+// Console.Write("Введи цифру дня недели: ");
+// int dayNumber = Convert.ToInt32(Console.ReadLine());
+
+
+// void CheckingTheDayOfTheWeek (int dayNumber) {
+//   if (dayNumber == 6 || dayNumber == 7) 
+//   Console.WriteLine("этот день выходной");
   
-  else Console.WriteLine("этот день не выходной");
-}
+//   else Console.WriteLine("этот день не выходной");
+// }
 
-CheckingTheDayOfTheWeek(dayNumber);
+// CheckingTheDayOfTheWeek(dayNumber);
 
