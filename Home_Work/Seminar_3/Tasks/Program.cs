@@ -1,9 +1,49 @@
 ﻿
-// Console.WriteLine("Введите число");
-// int FirstN = int.Parse(Console.ReadLine());
-// int SecondN = int.Parse(Console.ReadLine());
-// int temp = 0;
 
+Console.WriteLine("введите  число");
+string num = Console.ReadLine();
+string rev = string.Concat(num.Reverse());
+
+if (num == rev){
+
+Console.WriteLine( "Число палиндром");}
+
+else
+{
+    Console.WriteLine("Число не палиндром");
+}
+// Console.WriteLine(num == rev ? "палиндром" : "не палиндром");
+
+
+
+
+
+
+// Console.WriteLine("Введите число");
+// int n = int.Parse(Console.ReadLine());
+
+// int temp = n;
+// int rev = 0;
+// int coef = 0;
+
+// while (n > 0)
+
+//      coef = n % 10;
+//      rev = rev * 10 + coef;
+//      n = (n / 10) / 10;
+
+//     if (temp == rev){
+
+//     Console.WriteLine("Это число палиндром");}
+
+//         else
+        
+//     {
+//     Console.WriteLine("это число не палиндром");
+    
+//     }
+
+// Console.WriteLine();
 
 // while (FirstN > 0){
 //     temp = FirstN;
@@ -50,16 +90,16 @@
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-Console.Write("ВВедите число: ");
+// Console.Write("ВВедите число: ");
 
-int n = int.Parse(Console.ReadLine());
+// int n = int.Parse(Console.ReadLine());
 
 
-for (int i = 1; i <= n; i++)
+// for (int i = 1; i <= n; i++)
 
-{
-    Console.WriteLine(Math.Pow(i,3));
-}
+// {
+//     Console.WriteLine(Math.Pow(i,3));
+// }
 
 
 
